@@ -9,9 +9,7 @@
     </bean>
 
     <bean id="bookService" class="org.example.Dao.BookService">
-        <property name="bookDao" ref="bookDao">
-
-        </property>
+        <property name="bookDao" ref="bookDao"/>
     </bean>
 
 </beans>
